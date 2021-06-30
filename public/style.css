@@ -1,0 +1,189 @@
+* {
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: cadetblue;
+  padding: 1%;
+  font-weight: 500;
+  cursor: pointer;
+  border: 0;
+}
+
+header {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+nav {
+  padding: 1.2rem;
+  text-align: right;
+  white-space: pre;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 110%;
+}
+
+.btn-no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #225ca3;
+  font-size: 100%;
+  font-weight: bold;
+  transition: color 0.1s;
+  margin-left: 16px;
+}
+
+.btn-no-style:hover {
+  background: none;
+  color: #3486eb;
+}
+
+.delete-post-btn {
+  background-color: whitesmoke;
+}
+
+.delete-post-btn:hover {
+  background-color: whitesmoke;
+}
+
+.post {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+.post .title {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.post .title span {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+.upvote-btn {
+  background-color: #225ca3;
+  transition: background-color 0.1s;
+}
+
+.upvote-btn:hover {
+  background-color: #225ca3;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.comment:nth-child(odd) {
+  background-color: #225ca3;
+}
+
+.comment .meta {
+  font-size: 90%;
+  margin-bottom: 0.5%;
+  opacity: 0.6;
+}
+
+.new-post-form input,
+textarea {
+  width: 80%;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 1.25rem;
+}
+
+button:hover {
+  background-color: #3486eb;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+textarea,
+input {
+  padding: 0.5%;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid #3486eb;
+}
+
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
