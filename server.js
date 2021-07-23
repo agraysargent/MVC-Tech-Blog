@@ -18,7 +18,6 @@ console.log(sequelize);
 //const { Sequelize } = require("sequelize/types");
 
 
-
 const sess = {
   secret: process.env.DB_SESSION_SECRET,
   cookie: { maxAge: 7200000 },
